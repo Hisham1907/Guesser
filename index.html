@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Guess</title>
+</head>
+
+<body>
+    <div class="container-fluid py-5">
+        <header class="text-center">
+            <div class="py-2  fs-4 shadow bg-white bg-opacity-50 rounded-pill width m-auto mb-5">
+                <h1 class="head">Guess My Number !</h1>
+            </div>
+            <span class="display p-3 rounded-5 bg-success shadow fw-bold fs-5"><i class="fa-solid fa-question fa-2xl"></i></span>
+        </header>
+        <main>
+            <div class="container d-flex justify-content-center align-items-center pt-5">
+                <div class="row gy-4">
+                    <div class="col-md-6  ">
+                        <div class="p-5 text-center fs-4 shadow bg-white bg-opacity-50 rounded-2">
+                            <button class="btn btn-success w-100 fw-bold">Between 1 and 20</button>
+                            <input type="text" class="guess form-control my-3" number">
+                            <button class="btn  btn-success fw-bold check">Check </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6   ">
+                        <div class="p-5 fs-4 shadow bg-white  bg-opacity-50 rounded-2">
+                            <p class="message fw-bold">Start guessing ...</p>
+                            <p><i class="fa-solid fa-star "></i> Score : <span class="score">20</span></p>
+                            <p><i class="fa-solid fa-trophy"></i> Highscore : <span class="highScore">0</span></p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="text-center mt-4">
+            <button class="btn btn-success again">Play Again <i class="fa-solid fa-repeat ms-1"></i></button>
+        </footer>
+        <!-- //////////////////////////////////////////////////////////////////  -->
+        <!-- <header>
+        <nav>
+            <a href="index.html"> <button class="btn ">Again !</button></a>
+            <button class="btno again">Again !</button>
+            <p>(Between 1 and 20)</p>
+        </nav>
+        <h1>Guess My Number !</h1>
+        <span>?</span>
+    </header>
+
+
+    <main>
+        <div class="left">
+            <input type="text" class="guess" type="number">
+            <button class="btno">Check !</button>
+
+        </div>
+        <div class="right">
+            <p class="message">Start guessing ...</p>
+            <p>💯 Score: <span class="score">20</span></p>
+            <p>🥇 Highscore: <span class="highScore">0</span></p>
+        </div>
+    </main> -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/style.js"></script>
+</body>
+
+</html>

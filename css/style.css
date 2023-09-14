@@ -1,0 +1,38 @@
+body {
+    background: rgb(0, 191, 143); /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #001510,
+      #00bf8f
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #001510,
+      #00bf8f
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .width {
+      width: 70%;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .width {
+      width: 60%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .width {
+      width: 50%;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .width {
+      width: 40%;
+    }
+  }
+  
